@@ -10,11 +10,16 @@ body{
 .contener{
   min-height: 100vh;
   width: 100%;
- 
   display:flex ;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+}
+.background{
+  background-color:rgba(0, 0, 0, 0.214);
+  margin: 0;
+  padding: 0;
+  border-radius: 30px;
 }
 .hero{
   background-image: url(images/donation13.jpg);
@@ -29,7 +34,7 @@ h1{
 }
 p{
   text-align: center;
-  color: bisque;
+  color: #DDA0DD;
   font-size: 20px;
   margin-bottom: 50px;
 }
@@ -44,8 +49,8 @@ p{
   color: aquamarine;
   padding: 20px 30px;
   text-decoration: none;
-  background-image: linear-gradient(rgb(126, 37, 21) , black);
-  border-radius: 20px;
+  background-image: linear-gradient(#CD5C5C,#EE82EE);
+  border-radius: 10px;
 }
  
 .top-margin{
@@ -74,7 +79,7 @@ p{
  
  
 }
-#text-center{
+.text-center{
   width: 40%;
   margin: 0 auto 10px;
   color: black;
@@ -85,5 +90,8 @@ p{
   margin: 0 auto 70px;
   padding: 10px 30px;
   border-radius: 10px;
-  border-color: aliceblue aqua red black;
+  border-color: rgba(29, 66, 98, 0.21) ;
+}
+.margin-buttom{
+  margin-bottom: 50px;
 }
