@@ -116,3 +116,21 @@ p{
   margin-bottom: 20px;
   margin-top:40px;
 }
+.boder{
+  background-color: #EE82EE;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#email{
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+#submit{
+  padding: 5px 40px;
+  border-radius: 2px;
+  color:#00FF7F;
+  font-weight: 900;
+  background-color:black;
+}
