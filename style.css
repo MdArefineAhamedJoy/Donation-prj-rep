@@ -156,3 +156,8 @@ footer{
   min-height: 23vh;
   background-color: black;
 }
+.footer-sction{
+  text-align: center;
+  padding-top: 20px;
+  color: #00FF7F;
+}
