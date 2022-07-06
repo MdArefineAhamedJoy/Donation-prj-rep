@@ -26,18 +26,25 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1{
- text-align: center;
+ .heading{
+  text-align: center;
   margin-bottom:30px ;
   font-size: 50px;
   color: antiquewhite;
 }
+
+.heading-two{
+  text-align: center;
+  margin-bottom:30px ;
+  font-size: 30px;
+  color: antiquewhite;
+}
+/*
 p{
   text-align: center;
-  color: #DDA0DD;
   font-size: 20px;
   margin-bottom: 50px;
-}
+}*/
 .link{
   display:block;
   text-align: center;
@@ -52,12 +59,7 @@ p{
   background-image: linear-gradient(#CD5C5C,#EE82EE);
   border-radius: 10px;
 }
- 
-.top-margin{
-  margin-top: 100px;
-  margin-bottom:50px ;
-  color: aqua;
-}
+
 .amoun-flex{
   display: flex;
   background-color: aliceblue;
@@ -79,10 +81,18 @@ p{
  
  
 }
-.text-center{
+.p-aling-center{
   width: 40%;
   margin: 0 auto 10px;
   color: black;
+  
+}
+#text-color{
+  
+  margin: 0% auto;
+  width: 40%;
+  
+  color: antiquewhite;
 }
 .input-from{
   display: block;
@@ -117,7 +127,7 @@ p{
   margin-top:40px;
 }
 .boder{
-  background-color: #EE82EE;
+  background-color: #ee82ee76;
   height: 150px;
   display: flex;
   justify-content: center;
