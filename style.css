@@ -26,12 +26,13 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
  .heading{
   text-align: center;
   margin-bottom:30px ;
   font-size: 50px;
   color: antiquewhite;
-}
+ }
 
 .heading-two{
   text-align: center;
@@ -47,25 +48,31 @@ body{
   color: aquamarine;
   padding: 20px 30px;
   text-decoration: none;
-  background-image: linear-gradient(#cd5c5c66,#EE82EE);
+  background-color: #CD5C5C;
   border-radius: 10px;
 }
 
 .amount-flex{
+
   display: flex;
-  background-color: aliceblue;
-  margin-left:10%;
-  margin-right:10%;
-  border-radius: 20px;
-  margin-bottom: 30px;
-  font-weight: 800;
-  color: rgba(0, 0, 0, 0.486);
- 
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
 }
 .amount-flex div{
-   margin-left: 6%;
-   margin-right: 20px;
-   padding: 50px 30px;
+   width: 150px;
+   height: 100px;
+   margin:8px;
+   padding: 40px;
+   padding-bottom: 50px;
+   background-color: rgba(250, 235, 215, 0.465);
+   
+}
+.mark{
+  text-align: center;
+  font-weight: 900;
+  border:3px solid #CD5C5C;
 }
 .p-aling-center{
   width: 40%;
@@ -73,6 +80,7 @@ body{
   color: black;
   text-transform: capitalize;
 }
+
 
 #text-color{
   
