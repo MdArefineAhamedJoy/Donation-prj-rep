@@ -122,6 +122,16 @@ body{
   margin-bottom: 20px;
   margin-top:40px;
 }
+#card-one-bac{
+  background-color: aquamarine;
+}
+#card-two-bac{
+  background-color: blanchedalmond;
+}
+#card-three-bac{
+  background-color: indianred;
+
+}
 .boder{
   background-color: #ee82ee32;
   height: 150px;
