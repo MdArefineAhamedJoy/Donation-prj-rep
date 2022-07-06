@@ -127,7 +127,7 @@ p{
   margin-top:40px;
 }
 .boder{
-  background-color: #ee82ee76;
+  background-color: #ee82ee32;
   height: 150px;
   display: flex;
   justify-content: center;
@@ -135,6 +135,7 @@ p{
 }
 #email{
   padding: 5px 20px;
+  border: 1px inset black;
   border-radius: 30px;
 }
 #submit{
@@ -143,4 +144,15 @@ p{
   color:#00FF7F;
   font-weight: 900;
   background-color:black;
+}
+#submit:hover{
+   color:white;
+   background-color: #CD5C5C;
+   transition: 1s;
+
+}
+footer{
+  width: 100%;
+  min-height: 23vh;
+  background-color: black;
 }
